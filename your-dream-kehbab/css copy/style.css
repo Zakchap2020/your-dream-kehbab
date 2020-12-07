@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url(../img/kehbab-background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+h1 {
+  background-color: yellow;
+  display: inline;
+  border: 5px solid black;
+  padding: 1rem;
+  border-radius: 2rem;
+  font-family: "Pacifico", cursive;
+}
+
+.container {
+  background-color: rgb(255, 255, 255, 0.4);
+  height: 100vh;
+  width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headerH1 {
+  text-align: center;
+  padding-top: 20vh;
+  margin-bottom: 2rem;
+}
+#chatbot-interface {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1vh;
+}
+
+#bot-face {
+  flex-direction: row;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 20rem;
+}
+
+#kehbab-man-img {
+  height: 20rem;
+}
+
+#chat-container {
+  margin-top: 2vh;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+}
+
+#chat-form {
+  display: flex;
+}
+
+#chat-input {
+  width: 40vw;
+  font-size: 1.5em;
+  background-color: rgb(235, 235, 235);
+}
+
+#btn-chat-send {
+  width: 10vw;
+  font-size: 1.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: "Dancing Script", cursive;
+  font-style: bold;
+  background-color: yellow;
+}
+
+/* #btn-chat-send {
+  width: 10vw;
+  font-size: 1.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: "Dancing Script", cursive;
+  font-style: bold;
+  background-color: yellow;
+  border: 2px solid black;
+} */
+
+#chatbox-container {
+  margin-top: 2vh;
+  display: flex;
+  justify-content: center;
+}
+
+#chatbox {
+  width: 50vw;
+  max-height: 30vh;
+  border: 2px solid black;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  font-size: 1.2em;
+  overflow: hidden;
+  overflow-y: scroll;
+  background-color: yellow;
+}
+
+.chat-item {
+  color: black;
+  font-family: "Dancing Script", cursive;
+}
+
+.chat-item-user {
+  font-family: "Caveat", cursive;
+  border: 2px black solid;
+  border-radius: 3rem;
+  background-color: rgb(226, 226, 226);
+  padding: 1rem;
+  margin-right: auto;
+}
+
+.chat-item-bot {
+  font-family: "Caveat", cursive;
+  text-align: right;
+  background-color: white;
+  border: 2px black solid;
+  border-radius: 3rem;
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: auto;
+}
